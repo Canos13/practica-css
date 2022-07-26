@@ -10,6 +10,174 @@
     <title>Practica CSS</title>
 </head>
 <body>
-    
+    <header class="hero">
+        <nav class="nav container">
+            <div class="nav__logo">
+                <h2 class="nav__title">
+                    Curso CSS
+                </h2>
+            </div>
+
+            <ul class="nav__link nav__link__menu">
+                <li class="nav__items">
+                    <a href="#" class="nav__links">Inicio</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#" class="nav__links">Acerca de</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#" class="nav__links">Contacto</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#" class="nav__links">Blog</a>
+                </li>
+
+                <img src="./images/close.svg" class="nav__close">
+            </ul>
+
+            <div class="nav__menu">
+                <img src="./images/menu.svg" class="nav__img">
+            </div>
+        </nav>
+
+        <section class="hero__container container">
+            <h1 class="hero__title">
+                Reforzando CSS para crear esta pagina web
+            </h1>
+            <p class="hero__texto">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, modi.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+            <a href="#" class="cta">Comerzar Ahora</a>
+        </section>
+    </header>
+
+    <main>
+        <section class="container about">
+            <h2 class="subtitle">
+                ¿Qué aprenderás en este curso?
+            </h2>
+            <p class="about__texto">
+                Todo lo necesario y obligatorio de CSS, (Flexbox, Grid, Custom properties, Position
+                Animaciones, Box model y más...).
+            </p>
+
+            <div class="about__main">
+                <article class="about_icons">
+                    <img src="./images/shapes.svg" class="about__img">
+                    <h3 class="about__title">CSS Layouts</h3>
+                    <p class="about__text">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae tempore porro eius facilis?
+                    </p>
+                </article>
+                <article class="about_icons">
+                    <img src="./images/paint.svg" class="about__img">
+                    <h3 class="about__title">Animaciones</h3>
+                    <p class="about__text">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae tempore porro eius facilis?
+                    </p>
+                </article>
+                <article class="about_icons">
+                    <img src="./images/code.svg" class="about__img">
+                    <h3 class="about__title">Sass</h3>
+                    <p class="about__text">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae tempore porro eius facilis?
+                    </p>
+                </article>
+            </div>
+        </section>
+
+        <section class="center">
+            <div class="info">
+                <div class="center_text">
+                    <h2 class="center__title">Curso completo de CSS3. ¡Domina CSS de una vez por todas!</h2>
+                    <p class="center__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi, aliquam nemo in facere suscipit at delectus unde labore ad officia iste accusantium eaque aperiam laborum est voluptate totam? Modi, obcaecati?</p>
+                    <a class="center__btn" href="#">Entra al curso</a>
+                </div>
+                <div class="center__img">
+                    <img class="c_img" src="./images/macbook.png">
+                </div>
+            </div>
+        </section>
+
+        <section class="container price">
+            <h1 class="price__title">Obten el plan perfecto para aprender</h1>
+            <div class="price__cards">
+                <div class="price__cards__one">
+                    <p class="price__cards__one__text">Flexbox</p>
+                    <h1 class="price__cards__one__title">FREE</h1>
+                    <div>
+                        <p class="price__cards__one__items">Flexbox</p>
+                        <p class="price__cards__one__items">Layouts</p>
+                        <p class="price__cards__one__items">Responsive</p>
+                    </div>
+                    <a class="price__cards__one__btn" href="#">Empieza Ahora</a>
+                </div>
+                <div class="price__cards__two">
+                    <p class="price__cards__two__text">Grid</p>
+                    <h1 class="price__cards__two__title">$30/mes</h1>
+                    <div>
+                        <p class="price__cards__two__items">Grid</p>
+                        <p class="price__cards__two__items">Imppcit Grid</p>
+                        <p class="price__cards__two__items">Responsive</p>
+                    </div>
+                    <a class="price__cards__two__btn" href="#">Empieza Ahora</a>
+                </div>
+                <div class="price__cards__one">
+                    <p class="price__cards__one__text">Animaciones</p>
+                    <h1 class="price__cards__one__title">$40/mes</h1>
+                    <div>
+                        <p class="price__cards__one__items">Animation</p>
+                        <p class="price__cards__one__items">Transition</p>
+                        <p class="price__cards__one__items">Render Website</p>
+                    </div>
+                    <a class="price__cards__one__btn" href="#">Empieza Ahora</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="testimony">
+            <div class="testimony__container container">
+                <img src="./images/leftarrow.svg" class="testtimony__arrow" id="before">
+                <section class="testimony__body testimony__body_show" data-id="1">
+                    <div class="testimony__text">
+                        <h2 class="subtitle">Mi nombre es Sergio Cano, <span class="testimony__course"> estudiante de NextJs.</span></h2>
+                        <p class="testimony__review">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati repudiandae quos, eveniet, iure voluptas pariatur ipsa, adipisci maiores quibusdam sunt sint blanditiis culpa consequatur facilis reiciendis dignissimos labore? Temporibus, vero?
+                        </p>
+                    </div>
+                    <figure class="testimony__picture">
+                        <img src="./images/face.jpg" class="testimony__img" alt="">
+                    </figure>
+                </section>
+
+                <section class="testimony__body" data-id="2">
+                    <div class="testimony__text">
+                        <h2 class="subtitle">Mi nombre es Ulises Cano, <span class="testimony__course"> estudiante de React-Native.</span></h2>
+                        <p class="testimony__review">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati r, i voluptas pariatur ipsa, adipisci maiores quibusdam sunt sint blanditiis culpa consequatur facilis reiciendis dignissimos labore? Temporibus, vero?
+                        </p>
+                    </div>
+                    <figure class="testimony__picture">
+                        <img src="./images/face2.jpg" class="testimony__img" alt="">
+                    </figure>
+                </section>
+
+                <section class="testimony__body" data-id="3">
+                    <div class="testimony__text">
+                        <h2 class="subtitle">Mi nombre es Rafael Cano, <span class="testimony__course"> estudiante de React-Native.</span></h2>
+                        <p class="testimony__review">
+                            Lorem ipsum dolor sit amng elit. Obcaecati repudiandae quos, eveniet, iure voluptas pariatur ipsa, adipisci maiores quibusdam sunt sint blanditiis culpa consequatur facilis reiciendis dignissimos labore? Temporibus, vero?
+                        </p>
+                    </div>
+                    <figure class="testimony__picture">
+                        <img src="./images/face3.jpg" class="testimony__img" alt="">
+                    </figure>
+                </section>
+
+                <img src="./images/rightarrow.svg" class="testtimony__arrow" id="next">
+            </div>
+        </section>
+    </main>
 </body>
 </html>
